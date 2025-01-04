@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button"
 import Layout from "./Master/Layout"
 import TasksPage from "./Master/Task"
+import Main from "./Master/Main/Main"
 
 function App() {
   return (
-    <div className=''>
+    <div className='w-full '>
       <Layout>
         {<>
-        Task Page
+        <Main></Main>
         </>}
         </Layout>
     </div>
